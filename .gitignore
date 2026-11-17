@@ -1,0 +1,29 @@
+# gradle
+.gradle/
+build/
+out/
+
+# local run directories created by runClient / runServer / runData
+run/
+runs/
+
+# keep the wrapper jar and scripts tracked
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
